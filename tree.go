@@ -348,7 +348,7 @@ walk: // Outer loop for walking the tree
 				case param:
 					// find param end (either '/' or path end)
 					end := 0
-					for end < len(path) && path[end] != '/' && path[end] != '/' {
+					for end < len(path) && path[end] != '/' && path[end] != ',' {
 						end++
 					}
 
